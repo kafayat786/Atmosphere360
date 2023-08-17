@@ -57,7 +57,6 @@ export const pakistanCities = [
   { value: "Mianwali", label: "Mianwali" },
   { value: "Kandhkot", label: "Kandhkot" },
   { value: "Hasilpur", label: "Hasilpur" },
-  { value: "Arifwala", label: "Arifwala" },
   { value: "Sadiqabad", label: "Sadiqabad" },
   { value: "Dera Ismail Khan", label: "Dera Ismail Khan" },
   { value: "Fatehpur", label: "Fatehpur" },
