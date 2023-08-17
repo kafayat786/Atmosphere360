@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* src/Weather.css */
+.container {
+  text-align: center;
+}
+
+.select-container div.searchbox {
+  margin: 0 auto 20px;
+  width: 350px;
+}
+.select-container {
+  padding: 100px 0;
+  margin: 0 auto 20px;
+  background-image: url("./store/assets/westher.jpg");
+}
+
+.select {
+  width: 100%;
+}
+
+.select-container .button:hover,
+.select-container .button:focus {
+  box-shadow: inset -6.5em 0 0 0 #fff, inset 6.5em 0 0 0 #fff;
+  transition-duration: 800ms;
+  color: #6f4fc4;
+}
+.select-container .button {
+  background-color: #6f4fc4;
+  color: white;
+  border: 1px solid #fff;
+  transition-duration: 800ms;
+  padding: 12px 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weather-card * {
+  color: #fff !important;
+}
+.weather-card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  background-image: linear-gradient(114deg, #6f4fc4, #d656fd);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+  margin-top: 0;
+}
+
+.weather-info {
+  margin-top: 10px;
+}
+.header h1 {
+  margin: 0;
+  padding: 20px 0;
+}
+.header {
+  background-color: #6f4fc4;
+  text-align: center;
+  color: #fff;
+}
+.result {
+  margin-bottom: 30px;
+}
